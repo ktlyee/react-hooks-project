@@ -1,0 +1,52 @@
+.container {
+  margin-bottom: 30px;
+}
+
+.section {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+/* --------- Menu --------- */
+
+.section-items-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: center;
+}
+
+.menu-items {
+  max-width: 30rem;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+img {
+  border: 0.25rem solid #008CBA;
+  border-radius: 0.25rem;
+  display: block;
+}
+
+.price {
+  margin-left: 10px;
+}
+
+.category-btn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #008CBA;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 15px 10px;
+}
