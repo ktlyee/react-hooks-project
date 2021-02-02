@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.App {
+  text-align: center;
+  margin: 40px;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background: #7D7F8C;
+  padding: 10px;
+  margin-left: 430px;
+  margin-right: 430px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px 100px;
+  justify-content: center;
+}
+
+.music-container {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: inline-block;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  background: white;
+  box-shadow: 5px 10px 8px #9F9FA6;
+}
+
+.media-content {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.music-name {
+  margin-bottom: 5px;
+}
+
+.icon {
+  font-size: 20px;
+  position: relative;
+  top: 3.5px;
+  margin-right: 10px;
+  color: #565659;
+}
+
+.amount {
+  color: #565659;
+}
+
+.video {
+  position: relative;
+  left: 50px;
+  top: 5px;
+}
